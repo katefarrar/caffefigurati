@@ -1,0 +1,36 @@
+$orange: #F2644F;
+$white: #fff;
+$black: #232A2B;
+
+body {
+	font-family: "industry", arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	color: $white;
+	background-color: $orange;
+	padding: 8%;
+	text-align: center;
+
+	h2 {
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	img {
+		width: 60%;
+	}
+}
+
+section {
+	background-color: $white;
+	padding: 5%;
+	color: $black;
+	text-align: center;
+
+	h3 {
+		font-weight: 400;
+		font-style: normal;
+	}
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: "industry", arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+header {
+  color: white;
+  background-color: #f2644f;
+  padding: 8%;
+  text-align: center; }
+  header h2 {
+    font-weight: 400;
+    font-style: normal; }
+  header img {
+    width: 60%; }
+
+section {
+  background-color: white;
+  padding: 5%;
+  color: #232a2b;
+  text-align: center; }
+  section h3 {
+    font-weight: 400;
+    font-style: normal; }
