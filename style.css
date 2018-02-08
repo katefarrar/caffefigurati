@@ -5,19 +5,49 @@ body {
 header {
   color: white;
   background-color: #f2644f;
+  background-image: url(figurati-pattern-red.png);
   padding: 8%;
   text-align: center; }
   header h2 {
     font-weight: 400;
-    font-style: normal; }
-  header img {
+    font-style: bold; }
+  header .logo-type {
     width: 60%; }
+  header a {
+    color: white;
+    font-weight: 600; }
+  header .instagram-logo {
+    padding-right: 4px; }
+
+h3 {
+  font-weight: 400;
+  font-style: normal; }
 
 section {
+  padding: 5%; }
+
+.info {
+  text-align: center;
   background-color: white;
-  padding: 5%;
-  color: #232a2b;
-  text-align: center; }
-  section h3 {
-    font-weight: 400;
-    font-style: normal; }
+  color: #232a2b; }
+  .info a {
+    color: #f2644f;
+    text-decoration: none;
+    font-weight: bold; }
+  .info img {
+    width: 30%; }
+
+footer {
+  padding: 2%;
+  text-align: center;
+  background-color: #232a2b;
+  color: white; }
+  footer p {
+    font-size: 14px; }
+
+@media screen and (max-width: 900px) {
+  .info img {
+    width: 40%; } }
+@media screen and (max-width: 600px) {
+  .info img {
+    width: 50%; } }
